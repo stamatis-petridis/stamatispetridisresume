@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stamatis Petridis — CV</title>
+  <meta name="description" content="Stamatis Petridis — Bitcoin × AI × Cloud Operations Specialist" />
+  <style>
+    :root{
+      --fg:#111; --muted:#666; --accent:#0a0a0a; --border:#e5e5e5; --bg:#fff;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      --sans: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    *{box-sizing:border-box}
+    html,body{background:var(--bg); color:var(--fg); margin:0; padding:0}
+    body{font:16px/1.55 var(--sans); max-width:920px; margin:0 auto; padding:32px}
+    header{display:flex; flex-wrap:wrap; align-items:flex-start; gap:16px; border-bottom:1px solid var(--border); padding-bottom:16px; margin-bottom:24px}
+    header h1{font-size:28px; margin:0}
+    header .tagline{color:var(--muted); margin-top:4px}
+    header img.photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .contact{margin-left:auto; min-width:300px}
+    .contact a{color:inherit; text-decoration:none}
+    .grid{display:grid; grid-template-columns: 1fr 1fr; gap:18px}
+    h2{font-size:18px; margin:22px 0 10px}
+    h3{font-size:16px; margin:14px 0 6px}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block; border:1px solid var(--border); border-radius:999px; padding:2px 8px; font-size:12px; margin:2px 6px 2px 0}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    code{font-family:var(--mono); font-size:13px; background:#f6f6f6; padding:0 4px; border-radius:4px}
+    section{padding-bottom:8px; border-bottom:1px solid var(--border); margin-bottom:18px}
+    .no-border{border-bottom:none}
+    footer{color:var(--muted); font-size:13px; margin-top:12px}
+    .btn-print{padding:.35rem .6rem;border:1px solid var(--border);border-radius:6px;background:#fff;cursor:pointer}
+    @media print{
+      body{padding:0; max-width:none}
+      a{text-decoration:none; color:inherit}
+      .pill{border-color:#bbb}
+      .btn-print{display:none}
+      @page { margin: 16mm; }
+    }
+  </style>
+  <!-- Basic social preview (optional image can be added later as /og.png) -->
+  <meta property="og:title" content="Stamatis Petridis — CV" />
+  <meta property="og:description" content="Bitcoin × AI × Cloud Operations Specialist" />
+  <meta property="og:url" content="https://stamatispetridisresume.pages.dev" />
+  <meta name="twitter:card" content="summary" />
+</head>
+<body>
+  <header>
+    <img src="cvphoto.jpg" alt="Stamatis Petridis" class="photo" />
+    <div>
+      <h1>Stamatis Petridis</h1>
+      <div class="tagline">Bitcoin × AI × Cloud Operations Specialist</div>
+      <div>
+        <span class="pill">Self‑custody</span>
+        <span class="pill">Full node</span>
+        <span class="pill">AWS Foundations</span>
+        <span class="pill">Edge/Serverless</span>
+        <span class="pill">Privacy‑first</span>
+      </div>
+    </div>
+    <div class="contact">
+      <div><strong>Location:</strong> Greece (Remote)</div>
+      <div><strong>Phone:</strong> <a href="tel:+306972196026">+30 697 2196 026</a></div>
+      <div><strong>Email:</strong> <a href="mailto:stampet2000@gmail.com">stampet2000@gmail.com</a> <span class="muted"></div>
+      <div><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/stamatispetridis" target="_blank" rel="noopener">linkedin.com/in/stamatispetridis</a></div>
+      <div><strong>GitHub:</strong> <a href="https://github.com/stamatis-petridis" target="_blank" rel="noopener">github.com/stamatis-petridis</a></div>
+      <div><strong>Website:</strong> <a href="https://stamatispetridisresume.pages.dev">stamatispetridisresume.pages.dev</a></div>
+    </div>
+  </header>
+
+  <p style="text-align:right;margin:0 0 8px 0;">
+    <button class="btn-print" onclick="window.print()">Print / Save as PDF</button>
+  </p>
+
+  <section>
+    <h2>Profile</h2>
+    <p><strong>Short:</strong> Operator building sovereign systems that compound: Bitcoin self‑custody and Lightning infra, local AI agents, and cloud automation. I ship lean, auditable tools that reduce dependency and increase leverage.</p>
+    <p class="muted"><strong>Full:</strong> Cloud–AI engineer with 12+ years of high‑pressure operational leadership, specializing in cloud‑native infrastructure, AI workflows, and blockchain sovereignty. Skilled in designing and deploying scalable systems across AWS, orchestrating AI agents (RAG, LangChain, LM Studio), and building secure Bitcoin/Lightning infrastructures. Combines deep troubleshooting experience with a builder mindset, delivering resilient platforms that merge AI, Cloud, and blockchain into real‑world operations.</p>
+  </section>
+
+  <section>
+    <h2>Core Skills</h2>
+    <div class="grid">
+      <div>
+        <h3>Cloud & DevOps</h3>
+        <ul>
+          <li>AWS: IAM, EC2, S3, VPC, pricing, Well‑Architected basics</li>
+          <li>Git‑driven CI/CD, rollback discipline; Docker/Kubernetes (foundational)</li>
+          <li>Infra as code: Terraform (basics), reproducible environments</li>
+        </ul>
+      </div>
+      <div>
+        <h3>AI & Automation</h3>
+        <ul>
+          <li>LLM orchestration and agents; RAG pipelines; LangChain; LM Studio/Ollama</li>
+          <li>Python tooling and API automation; lightweight evals and prompts</li>
+          <li>Edge functions for JSON APIs and integrations (Cloudflare Pages Functions)</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Data Engineering</h3>
+        <ul>
+          <li>SQL fluency; Python ETL scripting; file/HTTP ingestion</li>
+          <li>Observability and basic monitoring loops for pipelines</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Blockchain Sovereignty</h3>
+        <ul>
+          <li>Bitcoin node ops, Sparrow; descriptor/XPUB tooling; PSBT flows</li>
+          <li>Lightning basics; privacy‑oriented fee/ops hygiene</li>
+          <li>Cold storage, multisig strategy, inheritance playbooks</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ops & Security</h3>
+        <ul>
+          <li>Bitwarden CLI, passkeys, YubiKey 5C NFC; air‑gapped device flows</li>
+          <li>macOS/Linux CLI, zsh, Homebrew; backups and encryption</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>High‑pressure decision‑making; customer‑first mindset</li>
+          <li>Multilingual communication: Greek, English; Spanish/German learning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recent Projects</h2>
+    <h3>Sovereign Bitcoin Infrastructure <span class="muted">(2024–2025)</span></h3>
+    <ul>
+      <li>Built a fully sovereign Bitcoin + Lightning node with air‑gapped wallet flows and PSBT signing.</li>
+      <li>Managed descriptor‑based wallets, QR workflows, cold storage ops, inheritance planning.</li>
+      <li>Privacy‑oriented monitoring and fee optimization.</li>
+    </ul>
+
+    <h3>Cloudflare Hosting for Rental Business <span class="muted">(2025)</span></h3>
+    <ul>
+      <li>Deployed static multi‑language booking site on Cloudflare Pages with security controls and billing alerts.</li>
+      <li>Connected domain, configured SSL, and optimized for low‑latency global access.</li>
+    </ul>
+
+    <h3>AI‑Assisted Support Automation <span class="muted">(2025)</span></h3>
+    <ul>
+      <li>Prototyped chatbot workflow for repetitive customer queries with escalation routing.</li>
+      <li>Designed LLM‑based prompt orchestration; automated common requests via API‑driven actions.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <h3>Independent Operator — AI × Bitcoin × Cloud <span class="muted">(2023–present)</span></h3>
+    <ul>
+      <li>Delivered AI automation pipelines and local‑first data tooling; deployed static and edge sites.</li>
+      <li>Designed Bitcoin node and Lightning experiments with rigorous key management.</li>
+    </ul>
+
+    <h3>Scorpios Mykonos — Beach Club Controller <span class="muted">(2022–2024)</span></h3>
+    <ul>
+      <li>Oversaw high‑volume transactions, POS troubleshooting, and dispute resolution in a luxury environment.</li>
+      <li>Ensured compliance and accuracy for VIP financial operations under pressure.</li>
+    </ul>
+
+    <h3>Horizon Solutions — Network & Database Administrator <span class="muted">(2020)</span></h3>
+    <ul>
+      <li>Delivered IT and POS support; automated workflows with Python.</li>
+      <li>Maintained SQL databases and optimized queries for reporting.</li>
+    </ul>
+
+    <h3>Cavo Tagoo / Zuma — Maintenance Supervisor <span class="muted">(2021)</span></h3>
+    <ul>
+      <li>Led operations for complex technical systems in a luxury hospitality setting.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education & Certifications</h2>
+    <ul>
+      <li><strong>AWS Cloud Practitioner — CLF‑C02</strong> (training completed 2025)</li>
+      <li><strong>AWS Solutions Architect — Associate (SAA‑C03)</strong> (in progress, 2025)</li>
+      <li><strong>M.Sc. Financial Technology</strong> — Democritus University of Thrace</li>
+      <li><strong>B.Sc. Mathematics</strong> — Aristotle University of Thessaloniki</li>
+    </ul>
+  </section>
+
+  <section class="no-border">
+    <h2>Languages</h2>
+    <p>Greek (Native), English (Fluent), Spanish/German (Learning)</p>
+
+    <h2>Tech Stack</h2>
+    <p>
+      <span class="pill">Python</span>
+      <span class="pill">Node</span>
+      <span class="pill">HTML/CSS</span>
+      <span class="pill">LangChain</span>
+      <span class="pill">Ollama / LM Studio</span>
+      <span class="pill">Wrangler</span>
+      <span class="pill">Cloudflare Pages</span>
+      <span class="pill">Git</span>
+      <span class="pill">Sparrow</span>
+      <span class="pill">Trezor/Coldcard (planning)</span>
+    </p>
+    <p class="muted">Canonical URL: <a href="https://stamatispetridisresume.pages.dev">stamatispetridisresume.pages.dev</a></p>
+  </section>
+
+  <footer>
+    Last updated: <span id="ts"></span> · Print this page or save as PDF for a one‑pager CV.
+  </footer>
+  <script>
+    document.getElementById("ts").textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
