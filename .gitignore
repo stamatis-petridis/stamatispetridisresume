@@ -12,3 +12,5 @@ dist/
 functions/.wrangler/
 .vscode/
 *.code-workspace
+AGENT.md
+cv.txt
